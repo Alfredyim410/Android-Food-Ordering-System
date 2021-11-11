@@ -1,0 +1,404 @@
+<resources>
+    <string name="app_name">CS Cafe</string>
+    <string name="tab_text_1">Super Value Meal</string>
+    <string name="tab_text_2">Burger</string>
+    <string name="tab_text_3">Drinks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="track">Track &amp; Trace</string>
+
+    <string name="filename_signup">http://www.cscafe4u.com/mobile/signup.php</string>
+    <string name="filename_login">http://www.cscafe4u.com/mobile/login.php</string>
+    <string name="filename_resetpword">http://www.cscafe4u.com/mobile/resetpw.php</string>
+    <string name="filename_updatemyprofile">http://www.cscafe4u.com/mobile/updateprofile.php</string>
+    <string name="filename_members">http://www.cscafe4u.com/mobile/members.php</string>
+    <string name="filename_searchmembers">http://www.cscafe4u.com/mobile/searchmembers.php</string>
+    <string name="filename_history">http://www.cscafe4u.com/mobile/history.php</string>
+    <string name="filename_myhistory">http://www.cscafe4u.com/mobile/myhistory.php</string>
+    <string name="filename_searchhistory">http://www.cscafe4u.com/mobile/searchhistory.php</string>
+    <string name="filename_searchmyhistory">http://www.cscafe4u.com/mobile/searchmyhistory.php</string>
+    <string name="filename_searchordernomyhistory">http://www.cscafe4u.com/mobile/searchordernomyhistory.php</string>
+    <string name="filename_searchordernohistory">http://www.cscafe4u.com/mobile/searchordernohistory.php</string>
+    <string name="filename_checkout">http://www.cscafe4u.com/mobile/checkout.php</string>
+    <string name="filename_addtocart">http://www.cscafe4u.com/mobile/addcart.php</string>
+    <string name="filename_viewcart">http://www.cscafe4u.com/mobile/viewcart.php</string>
+    <string name="filename_viewcarttotal">http://www.cscafe4u.com/mobile/viewcarttotal.php</string>
+    <string name="filename_kitchentodayorder">http://www.cscafe4u.com/mobile/kitvieworders.php</string>
+    <string name="filename_salessummary">http://www.cscafe4u.com/mobile/salessummary.php</string>
+
+    <string name="DealCode1">SVM001</string>
+    <string name="DealName1">CSChecken Super Value Meal</string>
+    <string name="DealPrice1">RM 16.50</string>
+
+    <string name="DealCode2">SVM002</string>
+    <string name="DealName2">CSChecken Deluxe Super Value</string>
+    <string name="DealPrice2">RM 17.90</string>
+
+    <string name="DealCode3">SVM003</string>
+    <string name="DealName3">Filet-O-Fish Super Value Meal</string>
+    <string name="DealPrice3">RM 16.50</string>
+
+    <string name="DealCode4">SVM004</string>
+    <string name="DealName4">Sweet Chilli Fish Burger Super Value Meal</string>
+    <string name="DealPrice4">RM 19.30</string>
+
+    <string name="DealCode5">SVM005</string>
+    <string name="DealName5">6pcs Chicken CSNuggets Super Value Meal</string>
+    <string name="DealPrice5">RM 16.50</string>
+
+    <string name="DealCode6">SVM006</string>
+    <string name="DealName6">9pcs Chicken CSNuggets Super Value Meal</string>
+    <string name="DealPrice6">RM 19.80</string>
+
+    <string name="DealCode7">SVM007</string>
+    <string name="DealName7">Spicy Chicken CSDeluxe Super Value Meal</string>
+    <string name="DealPrice7">RM 20.30</string>
+
+    <string name="DealCode8">SVM008</string>
+    <string name="DealName8">GCB Super Value Meal</string>
+    <string name="DealPrice8">RM 20.30</string>
+
+    <string name="DealCode9">SVM008</string>
+    <string name="DealName9">Ayam Goreng CS Regular (2pcs) Super Value Meal</string>
+    <string name="DealPrice9">RM 20.30</string>
+
+    <string name="DealCode10">SVM010</string>
+    <string name="DealName10">Ayam Goreng CS Spicy (2pcs) Super Value Meal</string>
+    <string name="DealPrice10">RM 24.50</string>
+
+    <string name="DealCode11">SVM011</string>
+    <string name="DealName11">Ayam Goreng CS Regular (3pcs) Super Value Meal</string>
+    <string name="DealPrice11">RM 24.50</string>
+
+    <string name="DealCode12">SVM012</string>
+    <string name="DealName12">Ayam Goreng CS Spicy (3pcs) Super Value Meal</string>
+    <string name="DealPrice12">RM 24.50</string>
+
+    <string name="DealCode13">SVM013</string>
+    <string name="DealName13">Double Cheeseburger Super Value Meal</string>
+    <string name="DealPrice13">RM 18.40</string>
+
+    <string name="DealCode14">SVM014</string>
+    <string name="DealName14">Big CS Super Value Meal</string>
+    <string name="DealPrice14">RM 19.40</string>
+
+    <string name="DealCode15">SVM015</string>
+    <string name="DealName15">Double Quarter Pounder with Cheese</string>
+    <string name="DealPrice15">RM 20.30</string>
+
+    <string name="DealCode16">SVM016</string>
+    <string name="DealName16">Smokey Grilled Beef Super Value Meal</string>
+    <string name="DealPrice16">RM 22.20</string>
+
+    <string name="Deal_Menu1">
+        <font color="#000000">CSChecken Super Value Meal\n</font>
+        <font color="#59842B">RM 16.50</font>
+    </string>
+
+    <string name="Deal_Menu2">
+        <font color="#000000">CSChecken Deluxe Super Value\n</font>
+        <font color="#59842B">RM 17.90</font>
+    </string>
+
+    <string name="Deal_Menu3">
+        <font color="#000000">Filet-O-Fish Super Value Meal\n</font>
+        <font color="#59842B">RM 16.50</font>
+    </string>
+
+    <string name="Deal_Menu4">
+        <font color="#000000">Sweet Chilli Fish Burger Super Value Meal\n</font>
+        <font color="#59842B">RM 19.30</font>
+    </string>
+
+    <string name="Deal_Menu5">
+        <font color="#000000">6pcs Chicken CSNuggets Super Value Meal\n</font>
+        <font color="#59842B">RM 16.50</font>
+    </string>
+
+    <string name="Deal_Menu6">
+        <font color="#000000">9pcs Chicken CSNuggets Super Value Meal\n</font>
+        <font color="#59842B">RM 19.80</font>
+    </string>
+
+    <string name="Deal_Menu7">
+        <font color="#000000">Spicy Chicken CSDeluxe Super Value Meal\n</font>
+        <font color="#59842B">RM 20.30</font>
+    </string>
+
+    <string name="Deal_Menu8">
+        <font color="#000000">GCB Super Value Meal\n</font>
+        <font color="#59842B">RM 20.30</font>
+    </string>
+
+    <string name="Deal_Menu9">
+        <font color="#000000">Ayam Goreng CS Regular (2pcs) Super Value Meal\n</font>
+        <font color="#59842B">RM 20.30</font>
+    </string>
+
+    <string name="Deal_Menu10">
+        <font color="#000000">Ayam Goreng CS Spicy (2pcs) Super Value Meal\n</font>
+        <font color="#59842B">RM 24.50</font>
+    </string>
+
+    <string name="Deal_Menu11">
+        <font color="#000000">Ayam Goreng CS Regular (3pcs) Super Value Meal\n</font>
+        <font color="#59842B">RM 24.50</font>
+    </string>
+
+    <string name="Deal_Menu12">
+        <font color="#000000">Ayam Goreng CS Spicy (3pcs) Super Value Meal\n</font>
+        <font color="#59842B">RM 24.50</font>
+    </string>
+
+    <string name="Deal_Menu13">
+        <font color="#000000">Double Cheeseburger Super Value Meal\n</font>
+        <font color="#59842B">RM 18.40</font>
+    </string>
+
+    <string name="Deal_Menu14">
+        <font color="#000000">Big CS Super Value Meal\n</font>
+        <font color="#59842B">RM 19.40</font>
+    </string>
+
+    <string name="Deal_Menu15">
+        <font color="#000000">Double Quarter Pounder with Cheese\n</font>
+        <font color="#59842B">RM 20.30</font>
+    </string>
+
+    <string name="Deal_Menu16">
+        <font color="#000000">Smokey Grilled Beef Super Value Meal\n</font>
+        <font color="#59842B">RM 22.20</font>
+    </string>
+
+    <string name="BurgerCode1">B001</string>
+    <string name="BurgerName1">Sweet Chilli Fish Burger</string>
+    <string name="BurgerPrice1">RM 11.31</string>
+
+    <string name="BurgerCode2">B002</string>
+    <string name="BurgerName2">Burger Chicken Deluxe</string>
+    <string name="BurgerPrice2">RM 9.91</string>
+
+    <string name="BurgerCode3">B003</string>
+    <string name="BurgerName3">Burger Double Chicken</string>
+    <string name="BurgerPrice3">RM 12.26</string>
+
+    <string name="BurgerCode4">B004</string>
+    <string name="BurgerName4">Double Filet-O-Fish</string>
+    <string name="BurgerPrice4">RM 12.26</string>
+
+    <string name="BurgerCode5">B005</string>
+    <string name="BurgerName5">Double Poundee with Cheese</string>
+    <string name="BurgerPrice5">RM 12.25</string>
+
+    <string name="BurgerCode6">B006</string>
+    <string name="BurgerName6">Double GCB</string>
+    <string name="BurgerPrice6">RM 19.34</string>
+
+    <string name="BurgerCode7">B007</string>
+    <string name="BurgerName7">Double Sweet Chilli Fish Burger</string>
+    <string name="BurgerPrice7">RM 15.08</string>
+
+    <string name="BurgerCode8">B008</string>
+    <string name="BurgerName8">GCB</string>
+    <string name="BurgerPrice8">RM 12.74</string>
+
+    <string name="BurgerCode9">B009</string>
+    <string name="BurgerName9">Double Spicy Chicken Deluxe</string>
+    <string name="BurgerPrice9">RM 19.34</string>
+
+    <string name="BurgerCode10">B010</string>
+    <string name="BurgerName10">Spicy Chicken Deluxe</string>
+    <string name="BurgerPrice10">RM 12.25</string>
+
+    <string name="BurgerCode11">B011</string>
+    <string name="BurgerName11">Filet-O-Fish</string>
+    <string name="BurgerPrice11">RM 8.96</string>
+
+    <string name="BurgerCode12">B012</string>
+    <string name="BurgerName12">Double Cheese Burger</string>
+    <string name="BurgerPrice12">RM 10.37</string>
+
+    <string name="BurgerCode13">B013</string>
+    <string name="BurgerName13">Big CS Burger</string>
+    <string name="BurgerPrice13">RM 11.31</string>
+
+    <string name="BurgerCode14">B014</string>
+    <string name="BurgerName14">Quarter Pounder with Cheese</string>
+    <string name="BurgerPrice14">RM 12.25</string>
+
+    <string name="BurgerCode15">B015</string>
+    <string name="BurgerName15">Double Quarter Pounder with Cheese</string>
+    <string name="BurgerPrice15">RM 12.25</string>
+
+    <string name="BurgerCode16">B016</string>
+    <string name="BurgerName16">CSChicken Burger</string>
+    <string name="BurgerPrice16">RM 8.49</string>
+
+    <string name="Burger_Menu1">
+        <font color="#000000">Sweet Chilli Fish Burger\n</font>
+        <font color="#59842B">RM 11.31</font>
+    </string>
+
+    <string name="Burger_Menu2">
+        <font color="#000000">Burger Chicken Deluxe\n</font>
+        <font color="#59842B">RM 9.91</font>
+    </string>
+    <string name="Burger_Menu3">
+        <font color="#000000">Burger Double Chicken\n</font>
+        <font color="#59842B">RM 12.26</font>
+    </string>
+    <string name="Burger_Menu4">
+        <font color="#000000">Double Filet-O-Fish\n</font>
+        <font color="#59842B">RM 12.26</font>
+    </string>
+    <string name="Burger_Menu5">
+        <font color="#000000">Double Poundee with Cheese\n</font>
+        <font color="#59842B">RM 12.25</font>
+    </string>
+    <string name="Burger_Menu6">
+        <font color="#000000">Double GCB\n</font>
+        <font color="#59842B">RM 19.34</font>
+    </string>
+    <string name="Burger_Menu7">
+        <font color="#000000">Double Sweet Chilli Fish Burger\n</font>
+        <font color="#59842B">RM 15.08</font>
+    </string>
+    <string name="Burger_Menu8">
+        <font color="#000000">GCB\n</font>
+        <font color="#59842B">RM 12.74</font>
+    </string>
+    <string name="Burger_Menu9">
+        <font color="#000000">Double Spicy Chicken Deluxe\n</font>
+        <font color="#59842B">RM 19.34</font>
+    </string>
+    <string name="Burger_Menu10">
+        <font color="#000000">Spicy Chicken Deluxe\n</font>
+        <font color="#59842B">RM 12.25</font>
+    </string>
+
+    <string name="Burger_Menu11">
+        <font color="#000000">Filet-O-Fish\n</font>
+        <font color="#59842B">RM 8.96</font>
+    </string>
+
+    <string name="Burger_Menu12">
+        <font color="#000000">Double Cheese Burger\n</font>
+        <font color="#59842B">RM 10.37</font>
+    </string>
+
+    <string name="Burger_Menu13">
+        <font color="#000000">Big CS Burger\n</font>
+        <font color="#59842B">RM 11.31</font>
+    </string>
+
+    <string name="Burger_Menu14">
+        <font color="#000000">Quarter Pounder with Cheese\n</font>
+        <font color="#59842B">RM 12.25</font>
+    </string>
+
+    <string name="Burger_Menu15">
+        <font color="#000000">Double Quarter Pounder with Cheese\n</font>
+        <font color="#59842B">RM 18.40</font>
+    </string>
+
+    <string name="Burger_Menu16">
+        <font color="#000000">CSChicken Burger\n</font>
+        <font color="#59842B">RM 8.49</font>
+    </string>
+
+    <string name="DrinksCode1">D001</string>
+    <string name="DrinksName1">Hot Tea</string>
+    <string name="DrinksPrice1">RM 4.72</string>
+
+    <string name="DrinksCode2">D002</string>
+    <string name="DrinksName2">Coco-Cola</string>
+    <string name="DrinksPrice2">RM 4.53</string>
+
+    <string name="DrinksCode3">D003</string>
+    <string name="DrinksName3">Sprite</string>
+    <string name="DrinksPrice3">RM 4.53</string>
+
+    <string name="DrinksCode4">D004</string>
+    <string name="DrinksName4">Iced Lemon Tea</string>
+    <string name="DrinksPrice4">RM 5.94</string>
+
+    <string name="DrinksCode5">D005</string>
+    <string name="DrinksName5">Milo</string>
+    <string name="DrinksPrice5">RM 7.08</string>
+
+    <string name="DrinksCode6">D006</string>
+    <string name="DrinksName6">Hot Milo</string>
+    <string name="DrinksPrice6">RM 4.53</string>
+
+    <string name="DrinksCode7">D007</string>
+    <string name="DrinksName7">Hot Tea Tarik</string>
+    <string name="DrinksPrice7">RM 4.72</string>
+
+    <string name="DrinksCode8">D008</string>
+    <string name="DrinksName8">Jus Oren Minute Maid</string>
+    <string name="DrinksPrice8">RM 6.13</string>
+
+    <string name="DrinksCode9">D009</string>
+    <string name="DrinksName9">100 Plus</string>
+    <string name="DrinksPrice9">RM 4.53</string>
+
+    <string name="DrinksCode10">D010</string>
+    <string name="DrinksName10">Drinking Water</string>
+    <string name="DrinksPrice10">RM 4.53</string>
+
+    <string name="Drinks_Menu1">
+        <font color="#000000">Hot Tea\n</font>
+        <font color="#59842B">RM 4.72</font>
+    </string>
+    <string name="Drinks_Menu2">
+        <font color="#000000">Coco-Cola\n</font>
+        <font color="#59842B">RM 4.53</font>
+    </string>
+    <string name="Drinks_Menu3">
+        <font color="#000000">Sprite\n</font>
+        <font color="#59842B">RM 4.53</font>
+    </string>
+    <string name="Drinks_Menu4">
+        <font color="#000000">Iced Lemon Tea\n</font>
+        <font color="#59842B">RM 5.94</font>
+    </string>
+    <string name="Drinks_Menu5">
+        <font color="#000000">Milo\n</font>
+        <font color="#59842B">RM 7.08</font>
+    </string>
+    <string name="Drinks_Menu6">
+        <font color="#000000">Hot Milo\n</font>
+        <font color="#59842B">RM 4.53</font>
+    </string>
+    <string name="Drinks_Menu7">
+        <font color="#000000">Hot Tea Tarik\n</font>
+        <font color="#59842B">RM 4.72</font>
+    </string>
+    <string name="Drinks_Menu8">
+        <font color="#000000">Jus Oren Minute Maid\n</font>
+        <font color="#59842B">RM 6.13</font>
+    </string>
+    <string name="Drinks_Menu9">
+        <font color="#000000">100 Plus\n</font>
+        <font color="#59842B">RM 4.53</font>
+    </string>
+    <string name="Drinks_Menu10">
+        <font color="#000000">Drinking Water\n</font>
+        <font color="#59842B">RM 4.53</font>
+    </string>
+
+    <string name="ArrowBackDate">&lt;&lt;</string>
+    <string name="ArrowNextDate">&gt;&gt;</string>
+
+    <string name="AbtDetails1">Developed By :\n<b>YIM CHEN SAN</b></string>
+    <string name="AbtDetails2">Student ID :\n<b>041150580</b></string>
+    <string name="AbtDetails3">Course Code :\n<b>TSE309/10</b></string>
+    <string name="AbtDetails4">Course Title :\n<b>SE PROJECT</b></string>
+    <string name="AbtDetails5">Project Supervisor :\n<b>VIMALA A/P DORAISAMY</b></string>
+    <string name="AbtDetails6">Course Lead :\n<b>DR TAN CHOON JUN</b></string>
+    <string name="AbtDetails7">Project Title :\n<b>ANDROID FOOD ORDERING SYSTEM</b></string>
+
+    <string name="AbtDetails8">WAWASAN OPEN UNIVERSITY</string>
+    <string name="AbtDetails9">(PENANG REGIONAL CENTRE)</string>
+</resources>

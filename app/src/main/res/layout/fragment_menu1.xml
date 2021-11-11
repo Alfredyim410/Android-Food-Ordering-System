@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".Menu1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal1" />
+
+                <ImageButton
+                    android:id="@+id/imgItem2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu1"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu2"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text ="Hot Tea"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal3" />
+
+                <ImageButton
+                    android:id="@+id/imgItem4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu3"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu3"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu4"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu4"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal5" />
+
+                <ImageButton
+                    android:id="@+id/imgItem6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu5"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu5"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu6"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu6"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal7" />
+
+                <ImageButton
+                    android:id="@+id/imgItem8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu7"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu7"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu8"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu8"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem9"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal9" />
+
+                <ImageButton
+                    android:id="@+id/imgItem10"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu9"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu9"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu10"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu10"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem11"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal11" />
+
+                <ImageButton
+                    android:id="@+id/imgItem12"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu11"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu11"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu12"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu12"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem13"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal13" />
+
+                <ImageButton
+                    android:id="@+id/imgItem14"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu13"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu13"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu14"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu14"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imgItem15"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/deal15" />
+
+                <ImageButton
+                    android:id="@+id/imgItem16"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnborder"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:visibility="invisible"
+                    android:src="@drawable/deal16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtMenu15"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="@string/Deal_Menu15"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtMenu16"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FrogetPwrd">
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:paddingTop = "20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:paddingBottom="10dp"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/txtTitle1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:text="Reset Password"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/logo"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:text="Enter your email or mobile number below and we'll retrive and send your password."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@id/txtTitle2"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/txtEmailAddress"
+        android:text=""
+        android:hint="Email Address"
+        android:textStyle="normal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dip"
+        android:paddingBottom="7dip"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/txtTitle3"
+        android:singleLine="true"
+        android:background="@drawable/txtborder"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button
+        android:id="@+id/btnRetrive"
+        android:text="Retrive Password"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

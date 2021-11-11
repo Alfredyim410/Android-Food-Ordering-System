@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkout">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_below= "@+id/Logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Caption1"
+                android:text="Your Account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Label1"
+                android:text="Account"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:layout_below="@+id/Caption1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/txtAccID"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/Label1"
+                android:layout_below="@+id/Caption1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View1"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_below="@+id/txtAccID"/>
+
+            <TextView
+                android:id="@+id/Label2"
+                android:text="Name"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:layout_below="@+id/View1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/txtFullName"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/Label2"
+                android:layout_below="@+id/View1"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View2"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_below="@+id/txtFullName"/>
+
+            <TextView
+                android:id="@+id/Label3"
+                android:text="Email"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:layout_below="@+id/View2"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/Label3"
+                android:layout_below="@+id/View2"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View3"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_below="@+id/txtEmail"/>
+
+            <TextView
+                android:id="@+id/Label4"
+                android:text="Contact"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:layout_below="@+id/View3"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/txtMobileNo"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/Label4"
+                android:layout_below="@+id/View3"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View4"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_below="@+id/txtMobileNo"/>
+
+            <TextView
+                android:id="@+id/Caption2"
+                android:text="Your Order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/View4"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption3"
+                android:text="Order Id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption2"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/OrderID"
+                android:text=""
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/Caption2"
+                android:layout_toRightOf="@+id/Caption3"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption4"
+                android:text="Payment Id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption3"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/PaymentID"
+                android:text=""
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/Caption3"
+                android:layout_toRightOf="@+id/Caption4"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption5"
+                android:text="Total"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption4"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Total"
+                android:text=""
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/Caption4"
+                android:layout_toRightOf="@+id/Caption5"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View5"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_below="@+id/Total"/>
+
+            <TextView
+                android:id="@+id/Caption6"
+                android:text="Pay with Credit or Debit Card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/View5"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption7"
+                android:text="Cardholder Name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption6"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/CardholderName"
+                android:text=""
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption7"
+                android:singleLine="true"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption8"
+                android:text="Card Number"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/CardholderName"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/CardNo1"
+                android:text=""
+                android:hint="XXXX"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption8"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View6"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_toRightOf="@+id/CardNo1"
+                android:layout_below="@+id/Caption8"/>
+
+            <EditText
+                android:id="@+id/CardNo2"
+                android:text=""
+                android:hint="XXXX"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption8"
+                android:layout_toRightOf="@+id/View6"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View7"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_toRightOf="@+id/CardNo2"
+                android:layout_below="@+id/Caption8"/>
+
+            <EditText
+                android:id="@+id/CardNo3"
+                android:text=""
+                android:hint="XXXX"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption8"
+                android:layout_toRightOf="@+id/View7"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View8"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_toRightOf="@+id/CardNo3"
+                android:layout_below="@+id/Caption8"/>
+
+            <EditText
+                android:id="@+id/CardNo4"
+                android:text=""
+                android:hint="XXXX"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption8"
+                android:layout_toRightOf="@+id/View8"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption9"
+                android:text="Card Type"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/CardNo1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <ImageView
+                android:id="@+id/Visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Caption9"
+                android:scaleType="fitXY"
+                android:src="@drawable/visa"/>
+
+            <ImageView
+                android:id="@+id/Master1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Caption9"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/master"/>
+
+            <View
+                android:id="@+id/View9"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_toRightOf="@+id/Visa"
+                android:layout_below="@+id/Caption9"/>
+
+            <ImageView
+                android:id="@+id/Master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Caption9"
+                android:layout_toRightOf="@+id/View9"
+                android:scaleType="fitXY"
+                android:src="@drawable/master" />
+
+            <TextView
+                android:id="@+id/Caption10"
+                android:text="Expiration Date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Visa"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/ExpDate"
+                android:text=""
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption10"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/Caption11"
+                android:text="CVV"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/ExpDate"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/CVV"
+                android:text=""
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Caption11"
+                android:singleLine="true"
+                android:maxLength="3"
+                android:inputType="number"
+                android:background="@drawable/txtborder"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <View
+                android:id="@+id/View10"
+                android:layout_width="5dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/CVV"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true"
+        android:text="Submit Payment" />
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/actPdf"
+        android:title="PDF"
+        android:icon="@drawable/pdf"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/actRefresh"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always" />
+</menu>

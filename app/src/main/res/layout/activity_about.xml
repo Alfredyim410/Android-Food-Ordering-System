@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".About">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:background="#FFF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:paddingTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo"
+                />
+            <TextView
+                android:id="@+id/Title1"
+                android:text="@string/app_name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_below="@+id/Logo"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/appInfo"
+                android:text="APP INFO"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title1"/>
+
+            <TextView
+                android:id="@+id/Title2"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="normal"
+                android:paddingBottom="5dp"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/appInfo"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title9"
+                android:text="@string/AbtDetails1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title2"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title3"
+                android:text="@string/AbtDetails2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title9"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title10"
+                android:text="@string/AbtDetails3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title3"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title11"
+                android:text="@string/AbtDetails4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title10"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title4"
+                android:text="@string/AbtDetails5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title11"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title5"
+                android:text="@string/AbtDetails6"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title4"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Title6"
+                android:text="@string/AbtDetails7"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:layout_below="@+id/Title5"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/LogoWawasan"
+                android:paddingTop="5dp"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/Title6"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/wawasan"
+                />
+
+            <TextView
+                android:id="@+id/Title8"
+                android:text="@string/AbtDetails9"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_below="@+id/LogoWawasan"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

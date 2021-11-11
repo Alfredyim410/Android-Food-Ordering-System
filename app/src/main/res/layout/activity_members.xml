@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Members">
+
+    <TextView
+        android:id="@+id/txtTrack"
+        android:text="@string/track"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:gravity="left|center_vertical"
+        android:layout_below="@+id/SearchDate"
+        />
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:hint="Search Member Name"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtTrack"
+        android:background="@drawable/txtborder"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="RtlCompat" />
+
+    <ListView
+        android:id="@+id/listMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSearch"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+</RelativeLayout>

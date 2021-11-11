@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:paddingTop = "20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:paddingBottom="10dp"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/txtTitle1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:text="User Authentication"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/logo"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:text="Email Address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_below="@id/txtTitle2"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/txtEmailAdd"
+        android:text=""
+        android:hint="Key in Your Email Address"
+        android:textStyle="normal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dip"
+        android:paddingBottom="7dip"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/txtTitle3"
+        android:singleLine="true"
+        android:background="@drawable/txtborder"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:text="Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_below="@id/txtEmailAdd"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:text=""
+        android:hint="Key in Your Password"
+        android:textStyle="normal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dip"
+        android:paddingBottom="7dip"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/txtTitle4"
+        android:singleLine="true"
+        android:background="@drawable/txtborder"
+        android:password="true"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/btnForgetPword"
+        android:text="Forgot Password?"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#F00"
+        android:gravity="left"
+        android:layout_below="@id/txtPassword"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSignup"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

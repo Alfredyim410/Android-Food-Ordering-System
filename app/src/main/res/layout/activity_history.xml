@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+    <TextView
+        android:id="@+id/DateDot"
+        android:text=" :      "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:text="Begin Date      "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:gravity="right|center_vertical"
+        android:layout_toLeftOf="@+id/DateDot"
+        android:layout_height="45dp" />
+
+
+    <TextView
+        android:id="@+id/SearchDate"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:layout_toRightOf="@+id/DateDot"
+        />
+
+    <TextView
+        android:id="@+id/DateDot1"
+        android:text=" :      "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/DateDot"
+        android:layout_width="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/Date1"
+        android:text="End Date      "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/Date"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:gravity="right|center_vertical"
+        android:layout_toLeftOf="@+id/DateDot"
+        android:layout_height="45dp" />
+
+
+    <TextView
+        android:id="@+id/SearchDate1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/SearchDate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:layout_toRightOf="@+id/DateDot"
+        />
+
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/SearchDate1"
+        android:scrollbars="vertical">
+    </WebView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+</RelativeLayout>
